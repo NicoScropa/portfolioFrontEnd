@@ -1,0 +1,103 @@
+.fondo {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.container {
+    width: 90%;
+}
+/*tengo que mejorar lo de englobar cajas en una sola padre, y poner una sola clase para todas las cajas*/
+.portada {
+    filter: invert(42%) sepia(81%) saturate(687%) hue-rotate(177deg) brightness(90%) contrast(95%);
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+.foto {
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: -200px;
+    position: relative;
+    
+}
+.infoNico {
+    margin-left: 50px;
+}
+.infoContacto {
+    color: blue;
+}
+.botonInteres {
+    color: white;
+    background-color: blue;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    background: blue;
+    padding: 10px 20px;
+    list-style: none;
+    
+}
+.menu1 {
+    display: flex;
+    justify-content: center;
+    background: aqua;
+    padding: 10px 20px;
+    list-style: none;
+    width: 90%;
+}
+.btnMenu {
+    background: whitesmoke;
+    border:  2px solid #09c;
+    border-radius: 6px;
+}
+.alineacionCajas {
+    margin-left: 50px;
+}
+.cajaArticulos {
+    border:  2px solid #000;
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+.venadoGob {
+    display: flex;
+}
+.cajaEducacion {
+    border:  2px solid #000;
+    border-radius: 6px;
+    padding: 20px;
+}
+.ices {
+    display: flex;
+}
+.argPrograma {
+    display: flex;
+}
+.eggProgramacion {
+    display: flex;
+}
+.cajaProyectos {
+    border:  2px solid #000;
+    border-radius: 6px;
+    padding: 20px;
+}
+.cajaHard {
+    display: flex;
+    border:  2px solid #000;
+    border-radius: 6px;
+    margin: 20px;
+    margin-left: 50px;
+    float: right;
+    margin-top: -600px;
+    margin-right: 50px;
+
+}
+.piePag {
+    border:  2px solid #000;
+    border-radius: 6px; 
+    margin-left: 50px;
+}
+.pie {
+    text-align: center;
+}
